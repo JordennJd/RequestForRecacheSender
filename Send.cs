@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
 // Console.WriteLine(DateTime.Now.AddDays(1).Date.ToString("d"));
-var factory = new ConnectionFactory { HostName = "10.244.0.173" };
+var factory = new ConnectionFactory { HostName = "rabbitmq" };
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 {
