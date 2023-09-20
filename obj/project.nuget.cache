@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wnlrqy0npOMwpCvtv6s88I2OdKIs/8wrIN8yehRiB5D1eEVmVnfDK46np3BHF3IFv1UKpMvgM7yZBDNMuYWsog==",
+  "success": true,
+  "projectFilePath": "/Users/danilalatyrev/Send/Send.csproj",
+  "expectedPackageFiles": [
+    "/Users/danilalatyrev/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

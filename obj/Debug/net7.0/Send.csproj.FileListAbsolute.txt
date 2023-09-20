@@ -1,0 +1,17 @@
+/Users/danilalatyrev/Send/bin/Debug/net7.0/Send
+/Users/danilalatyrev/Send/bin/Debug/net7.0/Send.deps.json
+/Users/danilalatyrev/Send/bin/Debug/net7.0/Send.runtimeconfig.json
+/Users/danilalatyrev/Send/bin/Debug/net7.0/Send.dll
+/Users/danilalatyrev/Send/bin/Debug/net7.0/Send.pdb
+/Users/danilalatyrev/Send/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.csproj.AssemblyReference.cache
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.AssemblyInfoInputs.cache
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.AssemblyInfo.cs
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.csproj.CoreCompileInputs.cache
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.csproj.CopyComplete
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.dll
+/Users/danilalatyrev/Send/obj/Debug/net7.0/refint/Send.dll
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.pdb
+/Users/danilalatyrev/Send/obj/Debug/net7.0/Send.genruntimeconfig.cache
+/Users/danilalatyrev/Send/obj/Debug/net7.0/ref/Send.dll
