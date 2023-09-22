@@ -11,7 +11,7 @@ using var channel = connection.CreateModel();
 
     while (true)
     {
-        string currentDBVersion = GetRequest("http://test-rasp.guap.ru:9002/api/db/version");
+        string currentDBVersion = GetRequest("https://test-rasp.guap.ru:9002/api/db/version");
         Console.WriteLine("Версия проверена");
         Thread.Sleep(1800000);
         if (currentDBVersion != lastDBVersion)
