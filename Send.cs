@@ -1,7 +1,8 @@
 ﻿using System.Net;
 using System.Text;
 using RabbitMQ.Client;
-// Console.WriteLine(DateTime.Now.AddDays(1).Date.ToString("d"));
+Thread.Sleep(30000);
+
 var factory = new ConnectionFactory { HostName = "rabbitmq" };
 string lastDBVersion = "";
 using var connection = factory.CreateConnection();
