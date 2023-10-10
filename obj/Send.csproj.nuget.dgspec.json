@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danilalatyrev/Send/Send.csproj": {}
+    "/Users/danilalatyrev/Desktop/ForProjects/Sender/Send.csproj": {}
   },
   "projects": {
-    "/Users/danilalatyrev/Send/Send.csproj": {
+    "/Users/danilalatyrev/Desktop/ForProjects/Sender/Send.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danilalatyrev/Send/Send.csproj",
+        "projectUniqueName": "/Users/danilalatyrev/Desktop/ForProjects/Sender/Send.csproj",
         "projectName": "Send",
-        "projectPath": "/Users/danilalatyrev/Send/Send.csproj",
+        "projectPath": "/Users/danilalatyrev/Desktop/ForProjects/Sender/Send.csproj",
         "packagesPath": "/Users/danilalatyrev/.nuget/packages/",
-        "outputPath": "/Users/danilalatyrev/Send/obj/",
+        "outputPath": "/Users/danilalatyrev/Desktop/ForProjects/Sender/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danilalatyrev/.nuget/NuGet/NuGet.Config"

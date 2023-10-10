@@ -12,9 +12,15 @@ using var channel = connection.CreateModel();
 
     while (true)
     {
-        string currentDBVersion = GetRequest("https://test-rasp.guap.ru:9002/api/db/version");
-        Console.WriteLine("Версия проверена");
         Thread.Sleep(1800000);
+        string currentDBVersion = "0";
+        try
+        {
+            currentDBVersion = GetRequest("https://test-rasp.guap.ru:9002/api/db/version");
+            
+        }
+        catch{}
+        Console.WriteLine("Версия проверена");
         if (currentDBVersion != lastDBVersion)
         {
             channel.ExchangeDeclare(exchange: "SuaiScheduleApi", type: ExchangeType.Fanout);
@@ -27,8 +33,7 @@ using var channel = connection.CreateModel();
                 body: body);
             i++;
 
-            Console.WriteLine($" [x] Sent {message}");
-            Console.WriteLine(" Press [enter] to exit.");
+            Console.WriteLine("Отправлен запрос на перекеширование в " + DateTime.Now);
             
         }
 
