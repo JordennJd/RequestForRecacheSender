@@ -1,9 +1,12 @@
-﻿using System.Net;
+﻿using System.Configuration;
+using System.Net;
 using System.Text;
 using RabbitMQ.Client;
-Thread.Sleep(30000);
-
-var factory = new ConnectionFactory { HostName = "rabbitmq" };
+string Env = Environment.MachineName == "MacBook-Air-Danil"
+    ? Environment.MachineName
+    : "default";  
+Thread.Sleep(Convert.ToInt32(ConfigurationManager.AppSettings.Get(Env + "StartTime")));
+var factory = new ConnectionFactory { HostName = ConfigurationManager.AppSettings.Get(Env + "rabbitmq") };
 string lastDBVersion = "";
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
@@ -17,9 +20,8 @@ using var channel = connection.CreateModel();
         try
         {
             currentDBVersion = GetRequest("https://test-rasp.guap.ru:9002/api/db/version");
-            
         }
-        catch{}
+        catch{continue; }
         Console.WriteLine("Версия проверена");
         if (currentDBVersion != lastDBVersion)
         {

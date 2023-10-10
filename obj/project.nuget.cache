@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "cHKkIaxue/RqU7x/2jGQOtduP+rW9J+/vsILh9KrGFj/VvyA0SdhRkjHsgR55UfWOYZxOZ2ei/iGyGa4vtvdnw==",
+  "dgSpecHash": "WiUEHO6PySRVyhehQRm+OIU5AHr/emLOsv1h17przMxFyz5GLBNAZ6+RXGqJFq8vn2i6DYOfzdLVVEVnJsLEOg==",
   "success": true,
   "projectFilePath": "/Users/danilalatyrev/Desktop/ForProjects/Sender/Send.csproj",
   "expectedPackageFiles": [
+    "/Users/danilalatyrev/.nuget/packages/microsoft.win32.systemevents/7.0.0/microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "/Users/danilalatyrev/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.configuration.configurationmanager/7.0.0/system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.diagnostics.eventlog/7.0.0/system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.drawing.common/7.0.0/system.drawing.common.7.0.0.nupkg.sha512",
     "/Users/danilalatyrev/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/Users/danilalatyrev/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/Users/danilalatyrev/.nuget/packages/system.security.cryptography.protecteddata/7.0.0/system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.security.permissions/7.0.0/system.security.permissions.7.0.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/danilalatyrev/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
