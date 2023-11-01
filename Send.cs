@@ -15,7 +15,7 @@ using var channel = connection.CreateModel();
 
     while (true)
     {
-        Thread.Sleep(1800000);
+        Thread.Sleep(180000);
         string currentDBVersion = "0";
         try
         {
@@ -30,7 +30,7 @@ using var channel = connection.CreateModel();
             var body = Encoding.UTF8.GetBytes(message);
             int i = 0;
             channel.BasicPublish(exchange: "SuaiScheduleApi",
-                routingKey: "",
+                routingKey: "reCache",
                 basicProperties: null,
                 body: body);
             i++;
